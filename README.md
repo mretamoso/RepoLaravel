@@ -1,3 +1,45 @@
+
+Prototipo de Servicio de API
+
+De acuerdo a la imagen mostrada en la prueba, se saco la data mas relevante para poder generar un Json mediante un GET
+
+Ejecucion:
+
+- Abrir el app en VsCode
+- Asegurar la creacion de base de datos en mysql mediante xamp, se puede ver el nombre de la bd en el archivo .ENV, Database
+- Luego de crear la base de datos ejecutamos el comando php artisan migrate. Para entonces se crearan las tablas en la BD
+- Ingresar datos manuales primero en las maestras y culminando en las detalle
+- Iniciar el servidor php artisan serve
+- Verificar con POSTMAN en un get http://127.0.0.1:8000/api/home/1 
+- La ubicacion se puede verificar en el archivo api.php, se encuentra al final
+- Luego de que se tenga la data ingresada correctamente, postman devolvera el protototipo del Json
+
+
+Agredecimientos:
+
+-Youtube
+-Documentacion Laravel
+-A la empresa que brindo la prueba tecnica ya que pude aprender un nuevo lenguaje en 2 dias.
+
+Observacion:
+
+-Ignorar el codigo anterior al ultimo get en el archivo api.php 
+-Ignorar los controllers a excepcion de HomeController donde se encuentra la logica
+-Los otros controllers son practicas de un simple crud en Laravel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
